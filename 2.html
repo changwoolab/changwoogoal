@@ -1,24 +1,33 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>창우의 일기장-창우가 해야하는 일</title>
+    <title>창우의 일기장</title>
     <meta charset="utf-8">
+    <!-- style 속성을 통해 CSS를 사용할 수 있음 -->
+    <!--
+    a { -> selector
+      color:red; -> Declaration
+      ->property:value;
+    }
+    -->
+    <link rel="stylesheet" href="style.css">
   </head>
-
   <body>
-    <h1><a href="index.html">창우의 일기장</h1>
-    <ol>
-      <li><a href="1.html">창우의목표</a></li>
-      <li><a href="2.html">창우가 해야 하는 일</a></li>
-      <li><a href="3.html">WEB 공부 SITE 집합</a></li>
-    </ol>
-    <h2>창우가 미래를 위해 해야하는 일</h2>
-    <p>
+    <h1><a href="index.html">창우의 일기장</a></h1>
+    <div id="grid">
       <ol>
-        <li>알고리즘 공부</li>
-        <li>WEB 개발 하기</li>
-        <li>연구실 랩 학부 연구생 들어가서 인턴 하기!</li>
+        <li><a href="1.html">창우의목표</a></li>
+        <li><a href="2.html">창우가 해야 하는 일</a></li>
+        <li><a href="3.html">WEB 공부 SITE 집합</a></li>
       </ol>
-    </p>
+      <div>
+        <h2>창우가 미래를 위해 해야하는 일</h2>
+        <p>
+          <li>알고리즘 공부</li>
+          <li>WEB 개발 하기</li>
+          <li>연구실 랩 학부 연구생 들어가서 인턴 하기!</li>
+        </p>
+      </div>
+    </div>
   </body>
 </html>
