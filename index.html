@@ -4,12 +4,16 @@
     <title>창우의 일기장</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <script src='colors.js' type="text/javascript">  </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
 
 <!-- HTML은 정보를 담고, CSS는 디자인을 담는다 -->
 <!-- CSS는 가까이 있는 것을 우선순위로!, TAG < CLASS < ID 1번만 등장 -->
   <body>
     <h1><a href="index.html">창우의 일기장</a></h1>
+
+    <input id='night_day' type="button" value="day" onclick = "nightDatHandler(this)">
     <div id="grid">
       <ol>
         <li><a href="1.html">창우의목표</a></li>
